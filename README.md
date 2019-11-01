@@ -1,24 +1,8 @@
-# README
+# Project: Bare Metal Forms and Helpers
+This project is about building a form the old fashioned way and then the Rails way. [here](https://www.theodinproject.com/courses/ruby-on-rails/lessons/forms)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Built With:
+Ruby on Rails
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Author
+Johan Tinjaca https://github.com/jstiven01
