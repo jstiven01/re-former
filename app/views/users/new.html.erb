@@ -1,3 +1,7 @@
+<% 
+=begin%>
+    Here is the comment 
+
 <form action='/users' method='post' accept-charset="UTF-8">
     <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
     <label for="username">Username: </label> <br><br>
@@ -8,3 +12,15 @@
     <input type="password" name="user[password]"> <br> <br>
     <input type="submit" value="Submit">
 </form>
+<%
+=end 
+%>
+<%= form_tag users_path do %>
+  <%= label_tag 'username', 'Username: ' %><br><br>
+  <%= text_field_tag :'user[username]' %><br><br>
+  <%= label_tag 'email', 'Email: ' %><br><br>
+  <%= email_field_tag :'user[email]' %><br><br>
+  <%= label_tag 'password', 'Password: ' %><br><br>
+  <%= password_field_tag :'user[password]' %><br><br>
+  <%= submit_tag "Submit User" %>
+<% end %>
